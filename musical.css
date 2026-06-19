@@ -68,3 +68,22 @@ footer a {
     clolist-style: none;
     padding: 0;
 }
+
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-items {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .8s;
+}
+
+.link-items:hover {
+    border-bottom: 2px solid #300505ca;
+
+}
